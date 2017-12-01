@@ -19,9 +19,9 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
 	<!-- 配置别名 -->
 	<typeAliases>
 		<!-- 批量扫描别名 -->
-		<package name="com.lqm.home.po"/>
+		<package name="com.hangh.home.po"/>
 		<!-- pojo中有自己拓展po中类的一些custom类，statement中参数要用到别名 -->
-		<package name="com.lqm.home.pojo"/>
+		<package name="com.hangh.home.pojo"/>
 	</typeAliases>
 
 	<!-- 配置mapper

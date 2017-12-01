@@ -39,7 +39,7 @@
 
 <!-- aop -->
 <aop:config>
-	<aop:advisor advice-ref="txAdvice" pointcut="execution(* com.lqm.home.service.impl.*.*(..))"/>
+	<aop:advisor advice-ref="txAdvice" pointcut="execution(* com.hangh.home.service.impl.*.*(..))"/>
 </aop:config>
 
 </beans>
